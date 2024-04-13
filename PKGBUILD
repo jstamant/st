@@ -5,7 +5,7 @@ pkgdesc='Simple terminal emulator for X'
 url='http://st.suckless.org/'
 arch=('i686' 'x86_64')
 license=('MIT')
-depends=('libxft' 'compton')
+depends=('libxft')
 makedepends=('ncurses' 'libxext' 'git')
 source=(https://dl.suckless.org/st/st-$pkgver.tar.gz
         config.h
